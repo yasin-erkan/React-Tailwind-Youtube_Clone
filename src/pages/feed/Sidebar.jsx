@@ -7,9 +7,9 @@ const Sidebar = () => {
   const selected = params.get("category");
 
   return (
-    <aside className="p-1 md:p-4">
+    <aside className="sidebar p-1 md:p-4 h-screen overflow-hidden hover:overflow-y-auto transition-all w-8 hover:w-64">
       {categories.map((i, key) => (
-        <Link to={i.path === "/" ? "/" : `/?category=${i.path}`} key={key}>
+        <Link to={i.path == "/" ? "/" : `/?category=${i.path}`} key={key}>
           <div
             className="flex items-center gap-2 py-4 px-2 md:px-3 md:text-lg cursor-pointer rounded-md hover:bg-[#2d2d2d] transition"
             style={{

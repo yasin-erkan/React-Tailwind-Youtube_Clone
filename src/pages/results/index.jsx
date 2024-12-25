@@ -45,8 +45,7 @@ const Results = () => {
   return (
     <div className="p-4 sm:p-6 md:p-10 h-[93vh] overflow-y-auto">
       <h2 className="text-xl mb-5">
-        <span className="font-bold me-2">{query}</span>
-        <span>results</span>
+        <span className="font-bold me-2">results for {query}</span>
       </h2>
 
       {error && <Error msg={error} />}

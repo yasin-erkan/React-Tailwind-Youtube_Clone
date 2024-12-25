@@ -29,7 +29,7 @@ const Feed = () => {
 
     // Make the API request
     api
-      .get(url, { params: { geo: "UK", lang: "en" } })
+      .get(url, { params: { geo: "FR", lang: "fr" } })
       .then((res) => setVideos(res.data.data))
       .catch((err) => setError(err.message));
   }, [selected]);

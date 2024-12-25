@@ -21,7 +21,7 @@ const Detail = () => {
 
   // Fetch video data from API using the id
   useEffect(() => {
-    const params = { id, extend: 1, geo: "UK", lang: "en" };
+    const params = { id, extend: 1, geo: "FR", lang: "fr" };
 
     api
       .get("/video/info", { params })
