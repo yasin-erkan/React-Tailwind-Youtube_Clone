@@ -1,8 +1,10 @@
+
 YouTube Clone Project 🌟🎥✨
 
 A vibrant and fully functional YouTube clone built with modern web technologies, replicating YouTube's core features. Explore, watch, and enjoy videos with a sleek and responsive interface! 🚀
 
-Youtube_clone_react_tailwindcss.gif
+![YouTube Clone GIF](https://github.com/yasin-erkan/React-Tailwind-Youtube_Clone/blob/main/Youtube_clone_react_tailwindcss.gif)
+
 
 Features ✨
 🗂️ Sidebar with Categories: Dynamically filter videos by category.
@@ -29,4 +31,4 @@ Navigate Categories: Use the sidebar to browse videos by category.
 Play Videos: Click on a video to navigate to its page and start watching.
 Search: Use the search bar to find videos by title or category.
 Contribution 🤝
-Contributions are always welcome! To contribute:
+Contributions are always welcome!
